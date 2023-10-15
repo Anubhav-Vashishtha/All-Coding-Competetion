@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: rgba(254, 235, 238,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#head{
+    font-size: 7vw;
+    font-family: 'Righteous', cursive;
+    margin-top: 10px;
+}
+
+#cards{
+    background-color: rgb(254, 235, 238);
+    transition-property: all;
+    transition-duration: 0.2s;
+    font-family: 'Amaranth', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cards:hover{
+    scale: 1.01;
+    box-shadow: 6px 7px 19px -11px rgba(0,0,0,0.75);
+}
+
+p{
+    padding: 10px;
+    font-size: 2vw;
+}
+
+.btn{
+    font-size: 1vw;
+    font-family: 'Amaranth', sans-serif;
+    display: flex;
+    width:10vw;
+    height: 4vw;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 0.7vw;
+    background-color:rgb(250, 210, 217);
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
